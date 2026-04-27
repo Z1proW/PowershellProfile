@@ -1,17 +1,5 @@
-### PowerShell template profile
-### Version 1.03 - Tim Sneath <tim@sneath.org> (modified)
-### From https://gist.github.com/timsneath/19867b12eee7fd5af2ba
-###
-### This file should be stored in $PROFILE.CurrentUserAllHosts
-### If $PROFILE.CurrentUserAllHosts doesn't exist, you can make one with the following:
-### 	PS> New-Item $PROFILE.CurrentUserAllHosts -ItemType File -Force
-### This will create the file and the containing subdirectory if it doesn't already
-###
-### As a reminder, to enable unsigned script execution of local scripts on client Windows,
-### you need to run this line (or similar) from an elevated PowerShell prompt:
-### 	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-### This is the default policy on Windows Server 2012 R2 and above for server Windows.
-### For more information about execution policies, run Get-Help about_Execution_Policies.
+### Inspired by ChrisTitusTech's profile (https://github.com/ChrisTitusTech/powershell-profile)
+### Edited and extended by Z1proW
 
 # remove beep
 Set-PSReadLineOption -BellStyle None
