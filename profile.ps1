@@ -360,8 +360,8 @@ Set-PSReadLineOption -MaximumHistoryCount 10000
 Set-PSReadLineOption -PredictionSource History
 # list of possible completions instead of inline preview
 #Set-PSReadLineOption -PredictionViewStyle ListView
-# tab for completion instead of right arrow
-Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+# menu completion instead of right arrow
+#Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 
 # reverse search with Ctrl+R
 Set-PSReadLineKeyHandler -Key Ctrl+r -Function ReverseSearchHistory
