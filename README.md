@@ -1,12 +1,13 @@
 # PowershellProfile
-My powershell profile (type help to see available commands)
+My powershell profile (type phelp to see available commands)
 
-```pwsh
+```
 === Custom PowerShell Profile Help ===
 
 ⚙️ Profile
+  h / phelp     -> Open this list of commands
   edit-profile  -> Open this profile in editor
-  reload        -> Restart Windows Terminal
+  rl / reload   -> Restart Windows Terminal
 
 🧠 Git shortcuts
   gitinit       -> git init/add ./commit
@@ -39,7 +40,7 @@ My powershell profile (type help to see available commands)
   findandreplace <file> <find> <replace> -> Replaces all occurrences of a string inside a file
 
 🌐 Network
-  download URL  -> Download file to Desktop (wget -c)
+  download <url> -> Download file to Desktop (wget -c)
   ip            -> Show public IP
   dns <name>    -> Get public IP of a domain name
   http <url>    -> HTTP check
